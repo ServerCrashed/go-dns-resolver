@@ -2,7 +2,7 @@
 
 A tiny UDP DNS resolver/proxy with an in-memory cache.
 
-## Very short description
+## Brief description
 
 Forwards DNS queries to an upstream server (default 8.8.8.8), caches responses in memory using the query name and type as the key, and returns cached answers while honoring TTLs.
 
