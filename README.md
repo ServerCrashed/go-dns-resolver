@@ -45,5 +45,3 @@ kill <pid>
 - The upstream server is hardcoded to `8.8.8.8:53` in `main.go`.
 - There are no static mappings; name→IP mappings come from upstream responses which are stored in the in-memory cache.
 - For development/testing only; not configured for production (no TLS, no ACLs, limited error handling).
-
-If you'd like, I can add a CLI flag to change the listening port or upstream server, or add a small static-override map for custom name→IP mappings.
